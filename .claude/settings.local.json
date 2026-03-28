@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venvScriptsactivate)",
+      "Bash(pip install:*)",
+      "Bash(source venv/Scripts/activate)"
+    ]
+  }
+}
