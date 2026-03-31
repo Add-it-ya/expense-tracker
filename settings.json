@@ -3,11 +3,11 @@
     "ANTHROPIC_BASE_URL": "https://openrouter.ai/api",
     "ANTHROPIC_AUTH_TOKEN": "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",
     "ANTHROPIC_API_KEY": "",
-    "ANTHROPIC_MODEL": "nvidia/nemotron-3-super-120b-a12b:free"
+    "ANTHROPIC_MODEL": "minimax/minimax-m2.5:free"
   }
 }
 
 // $env:ANTHROPIC_BASE_URL="https://openrouter.ai/api"
 // $env:ANTHROPIC_AUTH_TOKEN="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"
 // $env:ANTHROPIC_API_KEY=""
-// claude --model nvidia/nemotron-3-super-120b-a12b:free
+// claude --model qwen/qwen3-coder:free

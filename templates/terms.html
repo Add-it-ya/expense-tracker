@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block title %}Spendly — Terms and Conditions{% endblock %}
+
+{% block head %}
+<style>
+    .terms-inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 5rem 2rem;
+    }
+    .terms-card {
+        background: var(--paper-card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        padding: 3rem;
+        box-shadow: 0 8px 40px rgba(0,0,0,0.06);
+    }
+    h1 {
+        font-family: var(--font-display);
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        color: var(--ink);
+        margin-bottom: 1.25rem;
+    }
+    h2 {
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        color: var(--ink);
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    p {
+        font-family: var(--font-body);
+        font-size: 1.05rem;
+        color: var(--ink-muted);
+        line-height: 1.7;
+        margin-bottom: 2rem;
+    }
+    ul {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    li {
+        font-family: var(--font-body);
+        font-size: 1.05rem;
+        color: var(--ink-muted);
+        line-height: 1.7;
+        margin-bottom: 0.5rem;
+    }
+    .last-updated {
+        color: var(--ink-muted);
+        font-size: 1.05rem;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<section class="terms">
+    <div class="terms-inner">
+        <div class="terms-card">
+            <h1>Terms and Conditions</h1>
+            <p class="last-updated">Last updated: March 28, 2026</p>
+
+        <div class="terms-section">
+            <h2>1. Acceptance of Terms</h2>
+            <p>By accessing and using Spendly ("the Service"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, please do not use the Service.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>2. Use of Service</h2>
+            <p>You may use the Service for personal, non-commercial purposes only. You agree not to:</p>
+            <ul>
+                <li>Use the Service for any unlawful purpose;</li>
+                <li>Interfere with or disrupt the Service or servers connected to the Service;</li>
+                <li>Attempt to gain unauthorized access to the Service or related systems;</li>
+                <li>Collect or harvest any personally identifiable information from the Service;</li>
+                <li>Use the Service to advertise or offer to sell any goods or services;</li>
+                <li>Engage in any activity that restricts or inhibits any other user from using the Service;</li>
+                <li>Use the Service in a manner that could damage, disable, overburden, or impair the Service;</li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h2>3. User Data</h2>
+            <p>We respect your privacy and are committed to protecting your personal data. Our Privacy Policy, which is incorporated into these Terms by reference, governs our collection, use, and disclosure of your personal information.</p>
+            <p>You are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer. You agree to accept responsibility for all activities that occur under your account or password.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>4. Limitations of Liability</h2>
+            <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL SPENDLY, ITS AFFILIATES, OR THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR:</p>
+            <ul>
+                <li>ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES;</li>
+                <li>ANY LOSS OF PROFITS, REVENUES, DATA, USE, OR GOODWILL;</li>
+                <li>ANY CLAIMS BASED ON ERRORS, OMISSIONS, OR OTHER INACCURACIES IN THE SERVICE;</li>
+                <li>ANY COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;</li>
+                <li>ANY LOSS OR DAMAGE RESULTING FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA;</li>
+            </ul>
+            <p>IN NO EVENT WILL SPENDLY'S TOTAL LIABILITY ARISING OUT OF OR RELATED TO THE SERVICE, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, EXCEED THE AMOUNT PAID BY YOU, IF ANY, FOR ACCESSING THE SERVICE DURING THE SIX (6) MONTHS PRIOR TO THE DATE OF THE CLAIM.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>5. Changes to Terms</h2>
+            <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to the effective date of any new terms. What constitutes a material change will be determined at our sole discretion.</p>
+            <p>By continuing to access or use the Service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please discontinue using the Service.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>6. Contact Information</h2>
+            <p>If you have any questions about these Terms, please contact us at:</p>
+            <p>Spendly Support<br>
+            email: support@spendly.app</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

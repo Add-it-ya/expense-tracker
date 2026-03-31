@@ -3,7 +3,12 @@
     "allow": [
       "Bash(venvScriptsactivate)",
       "Bash(pip install:*)",
-      "Bash(source venv/Scripts/activate)"
+      "Bash(source venv/Scripts/activate)",
+      "Bash(export:*)",
+      "Bash(bash venv/Scripts/activate)",
+      "Bash(echo:*)",
+      "Bash(cmd /c \"venv\\\\Scripts\\\\activate.bat\")",
+      "Bash(curl -s http://localhost:5001/privacy)"
     ]
   }
 }
