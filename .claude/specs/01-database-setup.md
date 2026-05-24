@@ -108,9 +108,7 @@ Nothing — this is the first step.
 ---
 
 ## 8. Files to Create
-
 - None
-
 ---
 
 ## 9. Dependencies
