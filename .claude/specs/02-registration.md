@@ -1,7 +1,7 @@
 # Spec: Registration
 
 ## Overview
-Implement user registration so new visitors can create a Spendly account. This step wires up the POST handler for `/register`, validates the submitted form, hashes the password with Werkzeug, inserts the new user into the `users` table, establishes a Flask session, and redirects to the landing page. It also sets `app.secret_key` (required for sessions to work) and updates `base.html` to show a personalised navbar when a user is logged in.
+Implement user registration so new visitors can create a Spendly account. This step wires up the POST handler for `/register`, validates the submitted form, hashes the password with Werkzeug, inserts the new user into the `users` table, establishes a Flask session, shows a success message and then redirects to the landing page. It also sets `app.secret_key` (required for sessions to work) and updates `base.html` to show a personalised navbar when a user is logged in.
 
 ## Depends on
 - Step 1 — database setup: `get_db()` must be working and the `users` table must exist.
